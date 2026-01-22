@@ -84,7 +84,7 @@ header nav .menu a{
 
 
 #banner{
-    background-image: url('assets/hero-bg.png');
+    background-image: url('../assets/hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     /* padding: 115px 120px 179px 120px; */
