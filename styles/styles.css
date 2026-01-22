@@ -24,6 +24,7 @@
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    transition: all 0.3s;
 
 }
 
@@ -42,6 +43,19 @@
     line-height: 20px;
     color: #627382;
     margin-bottom: 44px;
+}
+
+.btn:hover{
+    background-color: #032d13;
+    box-shadow: 0px 4px 8px #627382;
+}
+
+.btn-2:hover{
+    background-color: #F7F6F2;
+    color: #15e749;
+    border: green;
+    
+
 }
 
 /* Main  */
@@ -76,7 +90,7 @@ header nav .menu a{
     /* padding: 115px 120px 179px 120px; */
     padding-bottom: 179px;
     padding-top: 115px;
-    
+    background-size: cover;
 }
 .banner-container{
     width: 85%;
@@ -129,7 +143,12 @@ header nav .menu a{
     background-color: transparent;
     border: 1px solid white;   
 }
-
+.hero-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
 #notes{
     padding-top: 50px;
     text-align: center;
@@ -263,6 +282,14 @@ footer{
     font-weight: 500;
     margin-bottom: 16px;
 
+}
+.social .links .footer-image{
+    padding-left: 10px;
+}
+.social .footer-image{
+    display: flex;
+    gap: 16px;
+    margin: 0 auto;
 }
 .social .footer-image img {
     background-color: white;
